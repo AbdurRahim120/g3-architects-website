@@ -19,6 +19,11 @@
   cursor: pointer;
   border: 0;
 }
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #131313;
+}
 
 /* header style  */
 
@@ -31,11 +36,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-.nav-title {
-  font-size: 2.8rem;
-  font-weight: 700;
-  color: #131313;
-}
+
 nav > ul {
   display: flex;
 }
@@ -78,6 +79,7 @@ main {
 .teams-container {
   display: flex;
   align-items: center;
+  margin-top: 40px;
 }
 .teams-img-container {
   display: grid;
